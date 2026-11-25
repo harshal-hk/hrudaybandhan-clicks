@@ -235,4 +235,58 @@ font-weight: bold;
     font-weight: bold;
     color: #550000;
 }
+/* package */
+
+.package-card {
+    border: 2px solid #b5c9c8;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+.package-card:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transform: translateY(-5px);
+}
+
+.package-title {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #9eb8b8;
+    margin-bottom: 25px;
+}
+
+.title-line {
+    width: 65px;
+    height: 2px;
+    background: #b5c9c8;
+    margin: 0 auto 25px;
+}
+
+.package-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.package-details p {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.contact-btn {
+    background: #111;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+.contact-btn:hover {
+    background: #b5a078;
+    color: white;
+}
+
 
